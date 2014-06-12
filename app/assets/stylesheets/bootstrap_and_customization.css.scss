@@ -11,9 +11,13 @@ $jumbotron-bg: #2d3339;
 @import 'bootstrap';
 
 
+.btn-primary{
+  margin-top: 10px;
+}
+
 .navbar-btn{
   float:right;
-  margin-left: 325px;
+  margin-left: 460px;
 }
 
 
@@ -35,39 +39,11 @@ body {
 
 
 .jumbotron {
-  padding: 20px;
+  padding: 50px;
   padding-bottom: 50px;
   margin-top: 50px;
-
-
 }
 
-.row1{ 
-  padding: 25px;
-  padding-bottom: 5px;
-  margin-top: 10px;
-  background-color: #ECF0F1;
-  position: relative;
-}
-
-
-.row2{ 
-  padding: 25px;
-  padding-bottom: 5px;
-  margin-top: 10px;
-  background-color: #ECF0F1;
-  position: relative;
-}
-
-
-
-.row3{ 
-  padding: 25px;
-  padding-bottom: 5px;
-  margin-top: 10px;
-  background-color: #ECF0F1;
-  position: relative;
-}
 
 
 .h2{
@@ -77,26 +53,29 @@ margin-bottom: 100px;
 
 
 span.glyphicon-cloud {
+  color: #3498db;
 	display: block;
-    font-size: 5em;
-    text-align: center;
+  font-size: 5em;
+  text-align: center;
 
 }
 
 span.glyphicon-stats {
+  color: #c0392b;
 	display: block;
-    font-size: 5em;
-    text-align: center;
+  font-size: 5em;
+  text-align: center;
 }
 
 
 span.glyphicon-globe {
+  color: #27ae60;
 	display: block; /// Centers the glyphicon
-    font-size: 5em; ///GlyphIcon size
-    text-align: center; /// Centers the text
+  font-size: 5em; ///GlyphIcon size
+  text-align: center; /// Centers the text
 }
 
 
-.btn-primary{
-  margin-top: 10px;
+.featurette-divider{
+  margin-bottom: 40px;
 }
