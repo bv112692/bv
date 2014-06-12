@@ -11,9 +11,16 @@ $jumbotron-bg: #2d3339;
 @import 'bootstrap';
 
 
+.navbar-btn{
+  float:right;
+  margin-left: 325px;
+}
+
+
 body { 
     padding-top: 65px; 
 }
+
 
 .h1 {
     color: #fff;
