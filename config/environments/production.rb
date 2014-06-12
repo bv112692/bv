@@ -82,5 +82,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   #set to actual host
-   #config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+   config.action_mailer.default_url_options = { :host => 'http://peaceful-inlet-1549.herokuapp.com/' }
 end

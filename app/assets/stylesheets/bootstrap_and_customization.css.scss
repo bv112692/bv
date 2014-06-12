@@ -2,13 +2,18 @@
 
 $body-bg: #FFFFFF;
 $font-family-sans-serif: 'Droid Sans', sans-serif;
-$navbar-height: 85px;
+$navbar-height: 75px;
 $navbar-default-bg: #FFFFFF;
 $navbar-default-link-color:	black;
 $brand-primary: #34495e;
 $jumbotron-bg: #2d3339;
 
 @import 'bootstrap';
+
+
+body { 
+    padding-top: 65px; 
+}
 
 .h1 {
     color: #fff;
@@ -23,9 +28,9 @@ $jumbotron-bg: #2d3339;
 
 
 .jumbotron {
-  padding: 50px;
+  padding: 20px;
   padding-bottom: 50px;
-  margin-top: 100px;
+  margin-top: 50px;
 
 
 }
