@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+$body-bg: #FFFFFF;
+$font-family-sans-serif: 'Droid Sans', sans-serif;
+$navbar-height: 85px;
+$navbar-default-bg: #FFFFFF;
+$navbar-default-link-color:	black;
+$brand-primary: #34495e;
+$jumbotron-bg: #2d3339;
+
+@import 'bootstrap';
+
+.h1 {
+    color: #fff;
+}
+
+
+.center {
+    text-align: center;
+    color:#fff ;
+}
+
+
+
+.jumbotron {
+  padding: 50px;
+  padding-bottom: 50px;
+  margin-top: 100px;
+
+
+}
+
+.row1{ 
+  padding: 25px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  background-color: #ECF0F1;
+  position: relative;
+}
+
+
+.row2{ 
+  padding: 25px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  background-color: #ECF0F1;
+  position: relative;
+}
+
+
+
+.row3{ 
+  padding: 25px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  background-color: #ECF0F1;
+  position: relative;
+}
+
+
+.h2{
+margin-top: 120px;
+margin-bottom: 100px;
+}
+
+
+span.glyphicon-cloud {
+	display: block;
+    font-size: 5em;
+    text-align: center;
+
+}
+
+span.glyphicon-stats {
+	display: block;
+    font-size: 5em;
+    text-align: center;
+}
+
+
+span.glyphicon-globe {
+	display: block; /// Centers the glyphicon
+    font-size: 5em; ///GlyphIcon size
+    text-align: center; /// Centers the text
+}
+
+
