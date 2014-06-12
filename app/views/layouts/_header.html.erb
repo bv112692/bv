@@ -62,7 +62,9 @@
       <ul class="nav navbar-nav navbar-left">
 
 
+        <%if user_signed_in? %>
         <li><%= link_to "Account Settings", edit_user_registration_path %></li>
+        <% end %>
       
         <%=link_to"Log in", new_user_session_path, class: "btn btn-info navbar-btn" %>
 
