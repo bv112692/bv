@@ -12,36 +12,38 @@ $jumbotron-bg: #2d3339;
 
 
 .btn-primary{
-  margin-top: 10px;
+  margin-top: 10px; //Main primary button color
 }
 
-.navbar-btn{
-  float:right;
-  margin-left: 460px;
+
+.navbar-btn{  //Login Button
+  float:right; // Login Button Placement
+  margin-left: 460px; // Exact btn location
 }
 
 
 body { 
-    padding-top: 65px; 
+    padding-top: 65px;  //Space between the header and jumbotron
 }
 
 
 .h1 {
-    color: #fff;
+    color: #fff; //text color of h1
+
 }
 
 
-.center {
-    text-align: center;
-    color:#fff ;
+.center {  
+    text-align: center; //position of text in jumbotron
+    color:#fff ; //color of text in jumbotron
 }
 
 
 
 .jumbotron {
   padding: 50px;
-  padding-bottom: 50px;
-  margin-top: 50px;
+  padding-bottom: 50px; // the distance from jumbotron to the features
+  margin-top: 50px;  // distance from the top of the jumbotron to the navbar
 }
 
 
@@ -52,7 +54,7 @@ margin-bottom: 100px;
 }
 
 
-span.glyphicon-cloud {
+span.glyphicon-cloud {  // type of glyphicon
   color: #3498db;
 	display: block;
   font-size: 5em;
@@ -60,7 +62,7 @@ span.glyphicon-cloud {
 
 }
 
-span.glyphicon-stats {
+span.glyphicon-stats {   // type of glyphicon
   color: #c0392b;
 	display: block;
   font-size: 5em;
@@ -68,7 +70,7 @@ span.glyphicon-stats {
 }
 
 
-span.glyphicon-globe {
+span.glyphicon-globe {   // type of glyphicon
   color: #27ae60;
 	display: block; /// Centers the glyphicon
   font-size: 5em; ///GlyphIcon size
@@ -78,4 +80,30 @@ span.glyphicon-globe {
 
 .featurette-divider{
   margin-bottom: 40px;
+}
+
+
+
+
+/////////About Page 
+
+.row1{
+  background-size: 75px 75px;
+  color:#ecf0f1;
+  padding-top:85px;
+  padding-bottom:285px;
+  background-color: #bdc3c7;  
+}
+
+
+.h2{
+  font-size: 78;
+}
+
+
+
+////////Sign Up panel
+
+.panel.panel-default{
+  margin-top: 100px;
 }
