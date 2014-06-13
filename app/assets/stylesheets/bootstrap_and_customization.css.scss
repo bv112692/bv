@@ -85,20 +85,23 @@ span.glyphicon-globe {   // type of glyphicon
 
 
 
-/////////About Page 
+///////////////////////////////////////////////////////////////////////////////////////About Page 
+
+
+.hdr-jumbo {
+font-size: 60px; ///Size of the text for the header
+}
+
+
 
 .container1{
-  text-align: left;
+  text-align: left; //places the text in the column
   background: #eee; //background color of the container
   margin-top:25px; // space between the container and the header
   padding-top: 50px; // space between between h1 and the top of the container
-  padding-bottom: 275px; //space between the text and the bottom of the container
+  padding-bottom: 300px; //space between the text and the bottom of the container
   padding-right: 30px; // Space between the text and the right of the container
   padding-left: 30px; //Space between the text and the left of the container
-}
-
-.img1{
-
 }
 
 
