@@ -16,9 +16,18 @@ $jumbotron-bg: #2d3339;
 }
 
 
+.form-inline .form-control{
+  margin-left: 75px; //search bar in header
+  width: 300px; //width of the searh bar
+}
+
+
+
+
+
 .navbar-btn{  //Login Button
   float:right; // Login Button Placement
-  margin-left: 460px; // Exact btn location
+  margin-left: 330px; // Exact btn location
 }
 
 
@@ -55,7 +64,7 @@ margin-bottom: 100px;
 
 
 span.glyphicon-cloud {  // type of glyphicon
-  color: #3498db;
+  color:  #333;
 	display: block;
   font-size: 5em;
   text-align: center;
@@ -63,7 +72,7 @@ span.glyphicon-cloud {  // type of glyphicon
 }
 
 span.glyphicon-stats {   // type of glyphicon
-  color: #c0392b;
+  color:  #333;
 	display: block;
   font-size: 5em;
   text-align: center;
@@ -71,7 +80,7 @@ span.glyphicon-stats {   // type of glyphicon
 
 
 span.glyphicon-globe {   // type of glyphicon
-  color: #27ae60;
+  color:  #333;
 	display: block; /// Centers the glyphicon
   font-size: 5em; ///GlyphIcon size
   text-align: center; /// Centers the text
@@ -82,10 +91,7 @@ span.glyphicon-globe {   // type of glyphicon
   margin-bottom: 40px;
 }
 
-
-
-
-///////////////////////////////////////////////////////////////////////////////////////About Page 
+ 
 
 
 .hdr-jumbo {
@@ -140,3 +146,5 @@ font-size: 60px; ///Size of the text for the header
 .panel.panel-default{
   margin-top: 100px;
 }
+
+
