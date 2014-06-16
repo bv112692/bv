@@ -160,10 +160,13 @@ font-size: 60px; ///Size of the text for the header
 
 
 ////features page
-
-.jumbotron h1, .jumbotron .h1 {
+.jumbotron h1, .jumbotron .h1{
+  color: #fff;
+}
+.jumbotron p{
 color: #fff;
 }
+
 
 
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus{
