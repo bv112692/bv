@@ -1,12 +1,14 @@
 Rails.application.routes.draw do
 
+  get 'pages/features'
+
   resources :pins
 
   devise_for :users
   devise_for :views
   #devise_for root :model
   root "pages#home"
-  get "about" => "pages#about" # creates an about_path
+  get "features" => "pages#features" # creates an features_path
   
 
 

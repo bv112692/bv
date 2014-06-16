@@ -24,23 +24,20 @@ $jumbotron-bg: #2d3339;
 
 
 .form-control{
-  width: 450px;
-}
+  width: 450px;}
+
 
 .panel-default{
   margin-left: 250px;
   text-align: left;
   float: center;
-  width:500px;
-}
-
-
+  width:500px;}
 
 
 .navbar-btn{  //Login Button
   float:right; // Login Button Placement
-  margin-left: 355px; // Exact btn location
-}
+  margin-left: 150px; // Exact btn location
+  margin-top: 20px;}
 
 
 .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
@@ -104,9 +101,6 @@ span.glyphicon-globe {   // type of glyphicon
 }
 
 
-.featurette-divider{
-  margin-bottom: 40px;
-}
 
  
 
@@ -165,3 +159,13 @@ font-size: 60px; ///Size of the text for the header
 }
 
 
+////features page
+
+.jumbotron h1, .jumbotron .h1 {
+color: #fff;
+}
+
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus{
+  margin-top: 50px;
+}

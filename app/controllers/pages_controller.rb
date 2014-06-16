@@ -1,9 +1,4 @@
 class PagesController < ApplicationController
-  def home
+  def features
   end
-
-
-  
-
-
 end
