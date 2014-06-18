@@ -2,7 +2,7 @@
 
 $body-bg: #FFFFFF;
 $font-family-sans-serif: 'Droid Sans', sans-serif;
-$navbar-height: 75px;
+$navbar-height: 55px;
 $navbar-default-bg: #FFFFFF;
 $navbar-default-link-color:	black;
 $brand-primary: #34495e;
@@ -11,9 +11,6 @@ $jumbotron-bg: #2d3339;
 @import 'bootstrap';
 
 
-.site-logo{
-  margin-left: -60px;
-}
 
 
 
@@ -22,15 +19,27 @@ $jumbotron-bg: #2d3339;
 }
 
 
-li{
-  display: inline-block; //position of nav links
-  padding: 10px 10px 10px;
-
+.img {
+  float: left;
+  position: absolute;
+  margin-top: 15px;
+  left: 1%;
 }
+
+.navbar-nav > li > a{
+  float: left;
+  text-align: left;
+}
+
+.navbar-btn{  //Login Button
+  float: right; // Login Button Placement
+  margin-right: 0px; // Exact btn location
+  margin-left:20px;
+  margin-top: 10px;}
 
 
 .form-inline .form-control{
-  margin-left: 150px; //search bar in header
+  margin-left: 10px; //search bar in header
   width: 255px; //width of the searh bar
 }
 
@@ -47,10 +56,7 @@ li{
   width:500px;}
 
 
-.navbar-btn{  //Login Button
-  float:right; // Login Button Placement
-  margin-left: 150px; // Exact btn location
-  margin-top: 20px;}
+
 
 
 .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
