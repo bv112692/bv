@@ -2,7 +2,7 @@
 
 $body-bg: #FFFFFF;
 $font-family-sans-serif: 'Droid Sans', sans-serif;
-$navbar-height: 55px;
+$navbar-height: 65px;
 $navbar-default-bg: #FFFFFF;
 $navbar-default-link-color:	black;
 $brand-primary: #34495e;
@@ -19,28 +19,18 @@ $jumbotron-bg: #2d3339;
 }
 
 
-.img {
-  float: left;
-  position: absolute;
-  margin-top: 15px;
-  left: 1%;
-}
 
-.navbar-nav > li > a{
-  float: left;
-  text-align: left;
-}
 
 .navbar-btn{  //Login Button
   float: right; // Login Button Placement
   margin-right: 0px; // Exact btn location
-  margin-left:20px;
+  margin-left:10px;
   margin-top: 10px;}
 
 
 .form-inline .form-control{
   margin-left: 10px; //search bar in header
-  width: 255px; //width of the searh bar
+  width: 250px; //width of the searh bar
 }
 
 
