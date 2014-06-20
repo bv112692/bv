@@ -30,8 +30,8 @@ $jumbotron-bg: #2d3339;
 
 
 .form-inline .form-control{
-  margin-left: 10px; //search bar in header
-  width: 250px; //width of the searh bar
+  margin-left: 20px; //search bar in header
+  width: 300px; //width of the searh bar
 }
 
 
@@ -147,7 +147,7 @@ font-size: 60px; ///Size of the text for the header
   background: #eee; //background color of the container
   margin-top:0px; // space between the container and the header
   padding-top: 50px; // space between between h1 and the top of the container
-  padding-bottom: 300px; //space between the text and the bottom of the container
+  padding-bottom: 350px; //space between the text and the bottom of the container
   padding-right: 30px; // Space between the text and the right of the container
   padding-left: 30px; //Space between the text and the left of the container
 }
@@ -188,4 +188,15 @@ color: #fff;
 
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus{
   margin-top: 50px;
+}
+
+
+
+///////After signed in
+
+.alert-success {  ///Message that displays whether you signed in or logged out successfully
+  margin-top: 15px;  /// Space between the header and the alert message
+  background-color: #dff0d8; /// The green color
+  border-color: #d6e9c6;  //Border color around the message
+  color: #3c763d;  ///Font color
 }
