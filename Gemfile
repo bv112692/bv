@@ -46,4 +46,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 group :production do
   gem "rails_12factor"
   gem "pg"
+
+
+
+  gem 'twitter-bootstrap-rails'
 end
