@@ -83,4 +83,10 @@ Rails.application.configure do
 
   #set to actual host
    config.action_mailer.default_url_options = { :host => 'http://peaceful-inlet-1549.herokuapp.com/' }
+
+
+
+config.assets.precompile += %w( '.woff', '.eot', '.svg', '.ttf' )
+
+   
 end
