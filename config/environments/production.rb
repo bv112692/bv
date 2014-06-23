@@ -86,5 +86,5 @@ Rails.application.configure do
 
 
 
-   config.assets.precompile += %w( '.woff', '.eot', '.svg', '.ttf' )
+  
 end
