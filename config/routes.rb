@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   devise_for :users
   devise_for :views
   #devise_for root :model
-  root "pages#home"
+  root "pins#index"
   get "features" => "pages#features" # creates an features_path
   
 
