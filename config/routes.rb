@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   #devise_for root :model
   root "pins#index"
   get "features" => "pages#features" # creates an features_path
+  get "addvideo" => "pages#addvideo"
   
  resources :uploads
 
