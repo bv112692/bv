@@ -13,7 +13,10 @@ Rails.application.routes.draw do
   get "features" => "pages#features" # creates an features_path
   get "addvideo" => "pages#addvideo"
   
- resources :uploads
+
+
+
+ 
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

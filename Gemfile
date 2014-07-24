@@ -29,7 +29,6 @@ gem 'aws-sdk', '~> 1.44.0'
 gem 'masonry-rails', '~> 0.2.1'
 gem 'will_paginate', '~> 3.0.5'
 gem 'will_paginate-bootstrap'
-gem  'transloadit-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -43,8 +42,8 @@ gem  'transloadit-rails'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-group :development, :test do
-	gem "sqlite3"	
+group :development, :test do	
+	gem "sqlite3"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
