@@ -42,16 +42,19 @@ gem 'will_paginate-bootstrap'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-group :development, :test do	
-	gem "sqlite3"
+group :development, :test do
+	gem 'sqlite3'
 end
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 group :production do
-  gem "rails_12factor"
   gem "pg"
+  gem "rails_12factor"
+  
+  group :doc do
+  # bundle exec rake doc:rails generates the API under doc/api.
+  gem 'sdoc', require: false
+end
 
 
 end
