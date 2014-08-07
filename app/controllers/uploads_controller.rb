@@ -1,6 +1,5 @@
 class UploadsController
   # The param[:transloadit] is automatically decoded for you
-  include Transloadit::Rails::ParamsDecoder
 
   def new
   end
