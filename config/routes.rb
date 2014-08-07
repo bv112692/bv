@@ -4,12 +4,10 @@ Rails.application.routes.draw do
 
   get 'pages/features'
 
-  resources :pins
-
   devise_for :users
   devise_for :views
   #devise_for root :model
-  root "pins#index"
+  root "pages#home"
   get "features" => "pages#features" # creates an features_path
   get "addvideo" => "pages#addvideo"
   
