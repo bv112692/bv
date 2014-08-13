@@ -10,6 +10,12 @@ Rails.application.routes.draw do
   root "pages#home"
   get "features" => "pages#features" # creates an features_path
   get "addvideo" => "pages#addvideo"
+  get "dashboard" => "pages#dashboard"
+  get "analytics" => "pages#analytics"
+  get "reports" => "pages#reports"
+  get "crm" => "pages#crm"
+
+  resources :charges
   
 
 

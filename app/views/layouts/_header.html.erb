@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-       <img src="assets/Bio-views-Logo-1-transparent.png" width=160 height=65>
+       <a class="navbar-brand" href="#">Bio-Views</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -36,13 +36,10 @@
             <li><a href="#">Crafts and Hobbies</a></li>
              <li><a href="#">Sports</a></li>
             <li><a href="#">Games</a></li>
- 
           </ul>
         </li>
-
-
+         </ul>
          
-      </ul>
       <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search for channels">
@@ -54,7 +51,7 @@
 
 
         <%if user_signed_in? %>
-        <li> <%= link_to new_pin_path do %><span class="glyphicon glyphicon-plus"></span> New Channel
+        <li> <%= link_to addvideo_path do %><span class="glyphicon glyphicon-plus"></span> New Channel
         <% end %>
       </li>
         
