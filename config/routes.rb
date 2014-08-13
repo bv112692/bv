@@ -16,6 +16,9 @@ Rails.application.routes.draw do
   get "crm" => "pages#crm"
 
   resources :charges
+
+  #Route for showing purchases
+  resources :purchases, only: [:show]
   
 
 
