@@ -31,6 +31,7 @@ gem 'will_paginate', '~> 3.0.5'
 gem 'will_paginate-bootstrap'
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem 'figaro'
+gem 'activeadmin', github: 'gregbell/active_admin'
 
 #Add letter opener for handling emails in development
 gem 'letter_opener', group: :development
