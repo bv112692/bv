@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails Bio-Views: development" uuid="010169fa-d4fc-4eae-be03-69d6cdc82f34">
+      <secret-storage>memory</secret-storage>
+    </data-source>
+    <data-source name="Rails Bio-Views: test" uuid="d0c770ce-cc0d-40a0-9066-1373b5a9bfd3">
+      <secret-storage>memory</secret-storage>
+    </data-source>
+  </component>
+</project>
